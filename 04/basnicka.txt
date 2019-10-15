@@ -1,3 +1,7 @@
+nazev: Basen 1
+
+autor: maly jarda
+
 kolo kolo mlynsky
 za ctyri rynsky
 kolo se nam polamalo
