@@ -25,9 +25,9 @@ while True:
 cipher_text = ""
 for char in plain_text:
     cipher_num = ord(char) + key
-    if char in "abcdefghijklmnopqrstuvwxyz" and cipher_num < 122:
+    if char in "abcdefghijklmnopqrstuvwxyz" and cipher_num < ord("z"):
         cipher_text += chr(cipher_num)
-    elif char in "abcdefghijklmnopqrstuvwxyz" and cipher_num > 122:
+    elif char in "abcdefghijklmnopqrstuvwxyz" and cipher_num > ord("z"):
         cipher_text += chr(ord("`") + (cipher_num % ord("z")))
     else:
         cipher_text += char
