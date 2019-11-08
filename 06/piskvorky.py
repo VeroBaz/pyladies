@@ -81,21 +81,6 @@ def tah_pocitace(pole):
             policko = randrange(0,19)
             if pole[policko] == "-":
                 return tah(pole, policko, symbol = "o")
-                # try:
-                #     if pole[policko - 1] == "x" or pole[policko + 1] == "x":
-                #         return tah(pole, policko, symbol = "o")
-                # except:
-                #     continue
-                # try:
-                #     if pole[policko - 1] == "o" or pole[policko + 1] == "o":
-                #         return tah(pole, policko, symbol = "o")
-                # except:
-                #     continue
-                # # try:
-                # #     if pole[policko - 2] == "x" or pole[policko + 2] == "x":
-                # #         return tah(pole, policko, symbol = "o")
-                # # except:
-                # #     continue
 
 def piskvorky1d():
     # Spusti hru - vytvori herni pole, stridave umoznuje tah hrace a pocitace, dokud nekdo nevyhraje nebo neni remiza. 
