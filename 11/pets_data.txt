@@ -1,0 +1,9 @@
+{
+  "monkey": {"price_per_day": 120, "level_of_maintenance": "high", "owner": "Veronika"},
+  "dog": {"price_per_day": 50, "level_of_maintenance": "medium", "owner": "Bohdan"},
+  "snake": {"price_per_day": 30, "level_of_maintenance": "easy", "owner": "Laura"},
+  "horse": {"price_per_day": 140, "level_of_maintenance": "high", "owner": "Milan"},
+  "butterfly": {"price_per_day": 20, "level_of_maintenance": "easy", "owner": "Claudia"},
+  "rabbit": {"price_per_day": 40, "level_of_maintenance": "easy", "owner": "Dan"},
+  "turtle": {"price_per_day": 20, "level_of_maintenance": "easy", "owner": "Sarah"}
+}
